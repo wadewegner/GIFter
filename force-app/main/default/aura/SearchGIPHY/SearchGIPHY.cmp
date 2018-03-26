@@ -65,7 +65,7 @@
     <lightning:layout horizontalAlign="center" multipleRows="true">
 
       <aura:iteration items="{!v.results}" var="result">
-        <lightning:layoutItem padding="around-small" size="8" smallDeviceSize="6" mediumDeviceSize="4" largeDeviceSize="3">
+        <lightning:layoutItem padding="around-small" size="8" smallDeviceSize="6" mediumDeviceSize="4" largeDeviceSize="1">
 
           <div class="gif-image">
             <a onclick="{!c.gifSelected}">
